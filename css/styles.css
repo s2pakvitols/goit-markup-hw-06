@@ -401,7 +401,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .icon-link-footer {
@@ -724,13 +724,24 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+.check-box-text:hover,
+.check-box-text:focus {
+  cursor: pointer;
+}
+
+.check-box:hover,
+.check-box:focus {
+  cursor: pointer;
+  border: 2px solid var(--btn-text-color);
 }
 
 
 
 .modal-check:checked + .check-box {
     background: #4D5AE5 ;
+
     
 }
 
