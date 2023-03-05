@@ -734,7 +734,7 @@ a {
 .check-box:hover,
 .check-box:focus {
   cursor: pointer;
-  border: 2px solid var(--btn-text-color);
+  
 }
 
 
