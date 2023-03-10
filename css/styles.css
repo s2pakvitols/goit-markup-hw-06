@@ -635,8 +635,11 @@ a {
 
 .modal-wrap {
     display: block;
-    margin-bottom: 16px;
     position: relative;
+}
+
+.modal-wrap.comment {
+margin-bottom: 16px;
 }
 
 .modal-input {
@@ -734,15 +737,12 @@ a {
 .check-box:hover,
 .check-box:focus {
   cursor: pointer;
-  
 }
 
 
 
 .modal-check:checked + .check-box {
     background: #4D5AE5 ;
-
-    
 }
 
 .policy {
@@ -763,6 +763,11 @@ a {
     border-color: transparent;
     cursor: pointer;
     transition: background-color var(--hover-transition);
+}
+
+.check-btn:hover,
+.check-btn:focus {
+  background-color: var(--btn-bg-color-active);
 }
 
 .footer-subscribe {
